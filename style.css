@@ -1,0 +1,67 @@
+.top {
+    background-color: black;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.txt {
+    background-color: grey;
+    height: 25px;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+  
+.txt p {
+    text-align: center;
+    line-height: 25px;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.da {
+    top: 35px;
+    background-color: #101010;
+    width: 512px;
+    height: 512px;
+    position: absolute;
+  }
+  
+  .pixel {
+    width: 1x;
+    height: 1px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .line {
+    position: absolute;
+    border: 1px solid white;
+  }
+  
+  #clear-btn {
+    top: 547px;
+    position: absolute;
+  }
+
+  .ok {
+    top: 567px;
+    position: absolute;
+  }
+
+  .st {
+    top: 587px;
+    position: absolute;
+  }
+
+  .down {
+    top: 607px;
+    position: absolute;
+  }
